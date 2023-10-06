@@ -558,7 +558,7 @@ nav {
 }
 
 /* Small devices (phones, less than 768px) */
-@media (max-width: 780px) {
+@media (max-width: 767px) {
   /* header */
   header {
     flex-direction: column;
