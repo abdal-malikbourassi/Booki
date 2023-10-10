@@ -312,7 +312,7 @@ nav {
 }
 
 .hebergements-cards-all article .infos h3 {
-  font-size: 16px;
+  font-size: 0.89em;
 }
 
 .hebergements-cards-all article .infos p {
@@ -414,7 +414,7 @@ nav {
 /* Activités à Marseille */
 
 .activite-marseille .section-title {
-  margin: 65px 0px 30px 35px;
+  margin: 65px 0px 30px 28px;
 }
 
 .activites-cards {
@@ -469,6 +469,7 @@ nav {
   flex-direction: row;
   background-color: var(--main-bg-color);
   margin-top: 55px;
+  padding-right: 6%;
 }
 
 .footer-content {
@@ -546,14 +547,6 @@ nav {
 
   .activites-cards .activites-card img {
     height: 200px;
-  }
-}
-
-/* Rétrécissement de la police d'écriture des cards hebergement avant l'overflow */
-
-@media (min-width: 1025px) and (max-width: 1125px) {
-  .hebergements-cards-all article .infos h3 {
-    font-size: 14px;
   }
 }
 
@@ -666,7 +659,7 @@ nav {
   }
 
   .infogroup .filters .filter p {
-    font-size: 0.9rem;
+    font-size: 0.84rem;
   }
 
   /* Main */
